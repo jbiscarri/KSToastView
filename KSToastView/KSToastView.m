@@ -266,7 +266,7 @@ static NSTextAlignment _textAligment = NSTextAlignmentCenter;
 
 + (UIColor *)_backgroundColor {
 	if (_backgroundColor == nil) {
-		_backgroundColor = [[UIColor darkGrayColor] colorWithAlphaComponent:0.8f];
+		_backgroundColor = [[UIColor darkGrayColor] colorWithAlphaComponent:0.9f];
 	}
 	return _backgroundColor;
 }
